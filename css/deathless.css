@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2018, 10:34:26 PM
+    Author     : Alexander
+*/
+
+@font-face {
+    font-family: 'Deathless Clean';
+    src: url('/fonts/DeathlessClean-Regular.woff2') format('woff2'),
+        url('/fonts/DeathlessClean-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+.deathless-text {    
+    font-family: Deathless Clean;
+    font-size: 30px;
+    vertical-align: middle;     
+    background: -webkit-linear-gradient(top, #BA8A48, #F9EE9F);
+    background: linear-gradient(top, #FF9F00, #FFD700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+header#header {
+    background: none !important; 
+    position: absolute;
+}
+
+.nav-menu a {
+    background: -webkit-linear-gradient(top, #BA8A48, #F9EE9F);
+    background: linear-gradient(top, #FF9F00, #FFD700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.header-btn {
+    background: -webkit-linear-gradient(top, #F9EE9F, #BA8A48);
+    color:#101732;
+    font-weight: 600;
+    border: none;
+}
+
+#header.header-scrolled {
+  box-shadow: none;
+  background: none;
+  transition: none;
+}
+
+img#jp {
+    padding-bottom: 3px;
+}
