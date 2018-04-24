@@ -53,6 +53,10 @@ header#header {
   transition: none;
 }
 
+header .header-top {
+    background: url(../img/construction.png) no-repeat center;
+}
+
 img#jp {
     padding-bottom: 3px;
 }
