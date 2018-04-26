@@ -214,7 +214,8 @@ $(document).ready(function(){
         loop:true,
         autoplay:true,
         margin:30,
-        dots: true
+        dots: true,
+        autoplayTimeout: 10000
     });
 
     $('.active-info-carusel').owlCarousel({
