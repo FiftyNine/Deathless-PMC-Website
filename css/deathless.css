@@ -40,11 +40,18 @@ header#header {
     font-weight: 800;
 }
 
+#mobile-nav-toggle i, #mobile-nav ul li a {
+    background: -webkit-linear-gradient(top, #BA8A48, #F9EE9F);
+    background: linear-gradient(top, #FF9F00, #FFD700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;        
+}
+
 .header-btn {
     background: -webkit-linear-gradient(top, #F9EE9F, #BA8A48);
     color:#101732;
     font-weight: 600;
-    border: none;
+    border: 1px #333 solid;
 }
 
 #header.header-scrolled {
@@ -57,6 +64,32 @@ header .header-top {
     background: url(../img/construction.png) no-repeat center;
 }
 
-img#jp {
+img.jp-icon-header {
     padding-bottom: 3px;
+}
+
+img.jp-icon-footer{
+    padding-bottom: 5px;
+}
+
+
+iframe.twitter-timeline  {
+    border: 1px #ddd solid !important;
+    border-radius: 5px;
+}
+
+.home-about-area .home-about-right {
+    background: none;
+}
+
+.feedback-left .overlay-bg {
+    background-color: #000;
+}
+
+.feedback-area {
+    background: url(../img/feedback-bg.jpg) center;    
+}
+
+.overlay-feedback {
+    background-color: rgba(40, 23, 0, 1.5);
 }
