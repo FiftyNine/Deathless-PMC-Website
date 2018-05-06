@@ -143,3 +143,55 @@ iframe.twitter-timeline  {
   color: #fab700;
   border-color: #fab700;
 }
+
+.single-career {
+    background-clip: content-box;
+    background-color: black; 
+    margin-bottom: 30px;
+}
+
+.deathless-career-image {
+  margin-bottom: 30px;
+  width: 100%;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;  
+  margin-bottom: 0px;
+}
+
+.deathless-career-image:hover {
+  opacity: .7;
+}
+
+.deathless-text-over-image {
+    color: #FF9F00;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);    
+    z-index: 1;
+    text-align: center;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */    
+}
+
+#careers-gallery {
+    margin-bottom: 150px;
+}
+
+@media (min-width: 961px) {
+    .deathless-text-over-image {
+        visibility: hidden;
+    }
+
+    .single-career:hover .deathless-text-over-image {
+        visibility: visible;
+    }    
+}
+
+.text-yellow {
+    color: #FF9F00;
+}
