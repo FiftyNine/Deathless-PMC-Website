@@ -86,14 +86,22 @@ iframe.twitter-timeline  {
     background-color: #000;
 }
 
-.feedback-area {
-    background: url(../img/feedback-bg.jpg) center;    
+.quotes-left .overlay-bg {
+    background-color: #000;
 }
 
+.feedback-area {
+  background-image: url(../img/feedback-bg.jpg);
+}
+
+.feedback-left {
+  background-image: url(../img/feedback-video-bg.jpg);
+}
+/*
 .overlay-feedback {
     background-color: rgba(40, 23, 0, 1.5);
 }
-
+*/
 .deathless-paragraph {
     margin-bottom: 50px;
 }
@@ -178,10 +186,6 @@ iframe.twitter-timeline  {
     user-select: none; /* Standard */    
 }
 
-#careers-gallery {
-    margin-bottom: 150px;
-}
-
 @media (min-width: 961px) {
     .deathless-text-over-image {
         visibility: hidden;
@@ -194,4 +198,73 @@ iframe.twitter-timeline  {
 
 .text-yellow {
     color: #FF9F00;
+}
+
+.quotes-area {
+  background: url(../img/quotes-bg.jpg) center;
+  background-size: cover;
+}
+
+.quotes-left {
+  background: url(../img/quotes-video-bg.jpg) center;
+  background-size: cover;
+  padding: 130px 0;
+}
+
+.quotes-left .play-btn {
+  z-index: 2;
+}
+
+.quotes-left .overlay-bg {
+  background-color: #000;
+}
+
+@media (max-width: 960px) {
+  .quotes-left {
+    margin-bottom: 30px;
+  }
+}
+
+.quotes-right .star {
+  margin-left: 20px;
+}
+
+.quotes-right .star .checked {
+  color: orange;
+}
+
+.quotes-right .owl-dots {
+  text-align: left;
+  bottom: 5px;
+  margin-top: 20px;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.quotes-right .owl-dot {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background: rgba(127, 127, 127, 0.5);
+  margin-left: 5px;
+  margin-right: 5px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.quotes-right .owl-dot.active {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background: #fab700;
+}
+
+.overlay-quotes {
+    background-color: rgba(40, 23, 0, 1.5);
 }
