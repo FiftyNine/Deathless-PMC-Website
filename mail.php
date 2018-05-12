@@ -1,5 +1,5 @@
 <?php
-$to = 'damupawe@b2bx.net'; // test mail
+    $to = 'damupawe@b2bx.net'; // test mail
     $name = $_POST["name"];
     $email= $_POST["email"];
     $subject = $_POST["subject"];
@@ -7,9 +7,9 @@ $to = 'damupawe@b2bx.net'; // test mail
     
 
 
-    //$headers = 'MIME-Version: 1.0' . "\r\n";
+    $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers = "From: " . $email . "\r\n"; // Sender's E-mail
-    //$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
     $message ='<table style="width:100%">
         <tr>
@@ -19,7 +19,7 @@ $to = 'damupawe@b2bx.net'; // test mail
         <tr><td>Text: '.$text.'</td></tr>
         
     </table>';
-    echo $headers;
+    
     if (mail($to, $subject, $message, $headers))
     {
         echo 'The message has been sent.';
