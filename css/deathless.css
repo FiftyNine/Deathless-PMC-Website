@@ -106,7 +106,7 @@ iframe.twitter-timeline  {
     margin-bottom: 50px;
 }
 
-.deathless-paragraph .deathless-image {
+.deathless-image {
     width: 100%; 
     height: 310px;
     padding: 5px; 
@@ -267,4 +267,23 @@ iframe.twitter-timeline  {
 
 .overlay-quotes {
     background-color: rgba(40, 23, 0, 1.5);
+}
+
+.deathless-contact h4 {
+    padding-top: 20px;
+}
+
+#contact-azarov .deathless-image {
+    background-image: url("/img/azarov.jpg");
+    background-position-y: -20px;
+}
+
+#contact-palovich .deathless-image {
+    background-image: url("/img/palovich.jpg");
+    background-position-y: 0px;
+}
+
+#contact-harlo .deathless-image {
+    background-image: url("/img/harlo.jpg");
+    background-position-y: 0px;
 }
