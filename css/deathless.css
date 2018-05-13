@@ -59,9 +59,14 @@ header#header {
   background: none;
   transition: none;
 }
-
+/*
 header .header-top {
     background: url(../img/construction.png) no-repeat center;
+}
+*/
+
+header .header-top {
+    background: none !important;
 }
 
 img.jp-icon-header {
@@ -274,8 +279,8 @@ iframe.twitter-timeline  {
 }
 
 #contact-azarov .deathless-image {
-    background-image: url("/img/azarov.jpg");
-    background-position-y: -20px;
+    background-image: url("/img/azarov.png");
+    background-position-y: 0px;
 }
 
 #contact-palovich .deathless-image {
