@@ -274,6 +274,10 @@ iframe.twitter-timeline  {
     background-color: rgba(40, 23, 0, 1.5);
 }
 
+.deathless-contact {
+    cursor: help;
+}
+
 .deathless-contact h4 {
     padding-top: 20px;
 }
